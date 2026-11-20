@@ -1,5 +1,5 @@
 @echo off
 setlocal
 set "pfad=%~dp0"
-set "output=%pfad%Ordnerstruktur.txt"
+set "output=%pfad%File-Structure.txt"
 tree "%pfad%" /F /A > "%output%"
